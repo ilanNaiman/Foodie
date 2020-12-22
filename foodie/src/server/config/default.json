@@ -1,0 +1,34 @@
+{
+  "JWT_SECRET": "Foodie",
+  "DB": {
+    "DB_USER": "foodie_admin",
+    "DB_PASSWORD": "YdBItsQ4j62IoU4v",
+    "DB_NAME": "Foodie"
+  },
+  "LOGGER": {
+    "LEVEL": "info",
+    "TRANSPORTS": [
+      {
+        "TYPE": "file",
+        "FILE_RELATIVE_PATH": "logs/error.log",
+        "LEVEL": "error"
+      },
+      {
+        "TYPE": "file",
+        "FILE_RELATIVE_PATH": "logs/combined.log",
+        "LEVEL": "silly"
+      }
+    ]
+  },
+  "here": {
+    "app.id": "dO2gDTdGF0syPpTYLjQR",
+    "apiKey": "7ve9ICmMEaACbOevVT1uQ6X8p0J0H2yHrFduxfD1HHA",
+    "user.id": "HERE-1426219d-02c0-4ef9-9748-1a3d24fd0b1d",
+    "client.id": "dO2gDTdGF0syPpTYLjQR",
+    "access.key.id": "q0sCG-cfYsPf1ZkC8Zd8uw",
+    "access.key.secret": "rw4NO713BVFkrfru9rk8cnfVui_XOT9sATkHUPdrGi6T9__4Hvem8CUjLy-i940ej1fvItzYaxsLlfcD9Tf2Q",
+    "token.endpoint.url": "https://account.api.here.com/oauth2/token",
+    "geolocation_endpoint_url": "https://autocomplete.geocoder.ls.hereapi.com/6.2/suggest.json",
+    "geocode_endpoint_url": "https://geocoder.ls.hereapi.com/6.2/geocode.json"
+  }
+}
