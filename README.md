@@ -1,4 +1,4 @@
-# Extract the 206291098_308193150.zip file and inside the 206291098_308193150 folder you will foodie folder which contains the project code
+# Foodie, Restaurant Reviews Web App
 
 # Install dependencies for server
 cd src
